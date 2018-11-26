@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="style.css">
+
+<form method="post" action="https://formspree.io/nikolashujka@gmail.com" method="POST">
+
+<div >
+<label for="ime">Ime i prezime:</label>
+<input id="ime" name="ime" minlength="5" required>
+</div>
+
+<div>
+<label for="telefon">Telefon:</label>
+<input id="telefon" placeholder="+381" name="telefon"required>
+</div>
+
+<div>
+<label for="email">Email:</label>
+<input pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" type="email" id="email" name="email"required>
+</div>
+
+<button>Posalji</button>
+
+</form>
